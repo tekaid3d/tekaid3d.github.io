@@ -1,0 +1,404 @@
+
+
+body {
+  width: 100%;
+}
+/* header-nav section*/
+.header-container {
+  height: 64px;
+  }
+.logo-container {
+    float: left;
+  display: flex;
+  font-size: 33px;
+  padding-left: 24px;
+  }
+.academy {
+  color: grey;
+  }
+nav {
+  float: right;
+  font-size: 27px;
+  font-family: sans-serif;
+  padding-top: 20px;
+  }
+nav li{
+  display:inline;
+  }
+nav a {
+padding-right: 16px;
+color: black;
+opacity: 0.6;
+text-decoration: none;
+}
+
+
+
+/* learn-container section*/
+.learn-container {
+  background-color: lightblue;
+  padding:32px 24px;
+  display: flex;
+  align-items: center;
+  min-width: 60%;
+}
+.banner::after {
+  content:'';
+  display:table;
+  clear: both;
+}
+.banner img{
+  width: 100%;
+  min-width: 60%;
+}
+
+.banner-text {
+  margin-left:40px;
+  padding: 10px;
+  color: darkblue;
+  text-shadow: .5px .5px white;
+  }
+h1 {
+    font-size: 37px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    font-weight: 900;
+  }
+h2 {
+  font-size: 27px;
+  font-family: sans-serif;
+  padding-bottom: 10px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+button {
+  border:0.5px solid darkblue;
+  width: 100%;
+  padding: 8px 0;
+  font-size: 32px;
+  color: darkblue;
+  background-color: none;
+}
+button:hover {
+  box-shadow: 5px 5px grey;
+}
+button:active {
+  box-shadow: 0px 5px grey;
+  transform: translateY(4px);
+}
+
+
+/* practice-container section*/
+.practice-container{
+  background-color: aliceblue;
+  display: flex;
+  }
+
+.main-practice {
+  display: inline-block;
+  float: left;
+  padding:32px 24px;
+  min-width: 60%;
+  }
+.main-practice img {
+  width: 100%;
+  padding-bottom: 32px;
+}
+.main-practice h3 {
+  padding-top: 50px;
+}
+
+.side-container {
+  width: inherit;
+}
+
+.practice-side {
+  width: 100%;
+  padding:32px 0;
+  display: inline-block;
+  vertical-align: top;
+  }
+
+.practice-side h3 {
+  max-height: 10px;
+}
+
+.practice-side h1, h2, h3, h4, h5 {
+  padding: 15px 0 0px 8px;
+}
+
+.practice-side img{
+  float: left;
+  width: 35%;
+  padding: 0 16px;
+}
+
+.main-practice:hover, .practice-side:hover {
+  transition: background-color 1.5s ease;
+  background-color: LightSteelBlue;
+  }
+
+h3 {
+  padding-top: 25px;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+
+h4 {
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+h5 {
+  color: blue;
+  text-shadow: 0.5px 0.5px white;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+
+
+  /* categories-container section*/
+.categories-container {
+  padding-bottom: 32px;
+  background-color: lightgrey;
+  }
+  .categories-container h1{
+    text-align: center;
+    padding: 32px 0;
+    }
+
+.subcat-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+
+.categories {
+  padding: 0 16px;
+  word-wrap: break-word;
+  width: 532px;
+}
+
+.categories img {
+  filter: blur(3px);
+  transition: .3s ease-in-out;
+}
+.categories img:hover {
+filter: blur(0);
+}
+
+.categories h2 {
+  font-size: 27px;
+  font-family: sans-serif;
+  padding: 8px 16px;
+  font-weight: 600;
+  }
+  .categories h4 {
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 8px 16px;
+    font-weight: 400;
+    }
+
+.categories h3 {
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    font-weight: 300;
+    }
+
+
+/* exhibit-container section*/
+
+.exhibit-container{
+  background-color: lightblue;
+    width: 100%;
+}
+.exhibit-container h1 {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.exhibit-content {
+  height: 100%;
+  display: flex;
+  }
+.exhibit-content h1{
+  text-align: left;
+}
+.exhibit-content h3{
+  text-align: left;
+  max-width: 60%;
+  word-wrap: break-word;
+  padding-bottom: 32px;
+}
+
+
+.exhibit-left {
+    max-width: 60%;
+    padding-left: 24px;
+    }
+
+video {
+  width: 97%;
+  }
+
+.exhibit-right {
+  padding-right: 10px;
+  }
+
+.exhibit:nth-child(1){
+  background-color: silver;
+  }
+
+.exhibit {
+  width: 100%;
+  display: inline-flex;
+  }
+
+.exhibit img {
+  height: 272;
+  max-height: 80%;
+  padding: 16px;
+}
+
+.thes-text{
+  display: inline-flex;
+  flex-direction: column;
+  padding-top: 32px;
+  }
+
+/* exhibit-container section*/
+.footer-container {
+  background-color:snow;
+  border-top: 1px dotted black;
+  padding: 0 24px;
+  display:flex;
+  justify-content: space-between;
+  min-height: 100px;
+  align-items: center;
+  }
+
+.links a{
+  padding: 0 10px;
+  text-decoration: none;
+  color: black;
+  }
+
+
+  @media (min-width: 501px) {
+    .mobile {display: none;}
+    .mobileimg {display: none;}
+    .mobileh2 {display: none;}
+
+}
+
+
+  @media (max-width: 500px) {
+
+    .header-container nav {display: none;}
+    .logo-container {display: none;}
+    .main-practice  {display: none;}
+    .desktopimg {display: none;}
+    .desktoph2 {display: none;}
+
+
+  body {
+    display: inline-block;
+    max-width: 500px;
+  }
+
+
+  .m-logo-container{
+        height: 64px;
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-around;
+
+    }
+
+.m-logo-container img {
+  padding: 10px;
+}
+
+.learn-container{
+      display: block;
+      padding: 1px;
+      width: inherit;
+      padding:0;
+    }
+button {
+    padding: 8px 0 ;
+    width: 80%;
+      }
+
+.side-container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  margin-bottom: 16px;
+  }
+
+.side-container img {
+  width: 80%;
+  }
+
+  .practice-side h1 h2 h3 h4 h5 {
+    padding: 0;
+  }
+
+.practice-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 16px 0;
+  }
+.practice-side h2  {
+width: 80%;
+height: 16px;
+padding: 16px;
+text-align: left;
+}
+
+.practice-side h3  {
+padding-top: 0px;
+}
+.categories-container img, .categories-container h3, h4 {
+  display: none;
+}
+
+.categories-container{
+  padding: 16px;
+}
+.categories {
+  border: 1px solid blue;
+  background-color: burlywood;
+  margin: 16px 0;
+  text-align: left;
+  min-height: 60px;
+  }
+
+.exhibit-container {
+  padding: 16px 0;
+  align-items: center;
+}
+
+.exhibit-container video {
+  padding: 32px 0;
+  min-width: 410px;
+  align-items: center;
+
+}
+.exhibit-right {display: none;}
+.exhibit-left h1 {display: none;}
+
+/*end of mobile bracket below*/
+}
